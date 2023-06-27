@@ -4,6 +4,8 @@ on:
     types:
       - reopened 
       - opened
+  push:
+    branches: [master]
 jobs:
   label_issues: # name of the job
     runs-on: ubuntu-latest
